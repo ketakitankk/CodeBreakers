@@ -12,7 +12,8 @@ h2{
   padding-bottom: 20px;
 }
 h4{
-  letter-spacing: 4px;
+  letter-spacing: 9px;
+
 }
 
 h5{
@@ -27,16 +28,17 @@ h5{
   font-family: 'Playfair Display', serif;
 }
 #myVideo {
+  display: block;
   overflow-x: auto;
   bottom: 20;
   height: 100vh;
   width: 100vw;
-  object-fit: fill;
+  object-fit: cover;
   z-index: -1;
 }
 #about-container{
-  position: relative;
-  bottom: 10px;
+  /* position: relative; */
+  /* bottom: 10px; */
   padding-top: 40px;
   padding-bottom: 40px;
   background: #5C527F;
@@ -49,8 +51,8 @@ h5{
   float: left;
 }
 #achievements-container{
-  position: relative;
-  bottom: 10px;
+  /* position: relative; */
+  /* bottom: 10px; */
   background-color: #261C2C;
   font-family: 'Playfair Display', serif;
   padding-top: 40px;
@@ -68,9 +70,9 @@ h5{
   padding: 40px;
   padding-bottom: 40px;
   color:white;
-  position: relative;
+  /* position: relative; */
   margin-top: 0;
-  bottom:10px;
+  /* bottom:10px; */
   font-family: 'Playfair Display', serif;
   background-color: #3E2C41;
 }
@@ -93,9 +95,9 @@ tr:nth-child(even) {
 }
 
 #members{
-  position: relative;
+  /* position: relative; */
   height: auto;
-  bottom:10px;
+  /* bottom:10px; */
   background-color: #0A1931;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -118,14 +120,12 @@ tr:nth-child(even) {
   width: 50%;
 }
 #contactus{
-  line-height: 1rem;
+  line-height: 1.5rem;
   font-family: 'Playfair Display', serif;
-  position: relative;
   color: white;
   text-align: center;
-  padding: 20px;
-  bottom: 10px;
-  background: #5C527F;
+  background-color: #0A1931;
+  margin: 0
 }
 .links{
   color: white;
@@ -133,5 +133,5 @@ tr:nth-child(even) {
   text-decoration: none;
 }
 .links:hover{
-  color: #0A1931;
+  color: #5C527F;
 }
