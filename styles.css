@@ -36,6 +36,13 @@ h5{
   object-fit: cover;
   z-index: -1;
 }
+
+@media screen and (max-width: 600px) {
+  #myVideo{
+    width: 100%;
+    height: auto;
+  }
+}
 #about-container{
   /* position: relative; */
   /* bottom: 10px; */
