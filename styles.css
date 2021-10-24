@@ -31,7 +31,7 @@ h5{
   display: block;
   overflow-x: auto;
   bottom: 20;
-  height: auto;
+  max-height: auto;
   width: 100vw;
   object-fit: cover;
   z-index: -1;
