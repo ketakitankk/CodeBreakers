@@ -31,17 +31,10 @@ h5{
   display: block;
   overflow-x: auto;
   bottom: 20;
-  height: 100vh;
+  height: auto;
   width: 100vw;
   object-fit: cover;
   z-index: -1;
-}
-
-@media screen and (max-width: 600px) {
-  #myVideo{
-    width: 100%;
-    height: auto;
-  }
 }
 #about-container{
   /* position: relative; */
